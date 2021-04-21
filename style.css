@@ -1,0 +1,132 @@
+body {
+    background: linear-gradient(to bottom, rgb(255, 143, 178) 0%, rgb(167, 151, 255) 50%, rgb(0, 229, 255))
+}
+
+#navbarContent>ul {
+
+    height: 100px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+
+
+}
+
+
+#navbarContent {
+
+
+
+    height: 15rem;
+    width: 100vw;
+}
+
+#navbarContent>ul>li>#welcome {
+    margin-right: 200px;
+}
+
+
+#navbarContent>ul>li>a {
+    text-decoration: none;
+    text-decoration: none;
+
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 30px;
+    margin: 10px 50px;
+    background-color: white;
+    color: black;
+    box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+    transition: all 0.1s ease-in-out 0.1s;
+
+
+}
+
+#navbarContent>ul>li>a:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    transform: scale(0.25);
+
+}
+
+#inputForm {
+    /* border: 2px solid black; */
+    width: 1200px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+.inputField>.heading {
+    font-size: 80px;
+    background: -webkit-linear-gradient(#eee, rgb(100, 250, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.inputField>.btn {
+    background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4 51%, #E55D87 100%);
+    margin: 10px auto;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.3s;
+    background-size: 200% auto;
+    color: white;
+    /* box-shadow: 0 0 20px #eee; */
+    border-radius: 10px;
+    display: block;
+
+}
+
+.inputField>.btn:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.alert-success {
+    padding: 20px;
+    background-color: #4ee728;
+    /* Red */
+    color: white;
+    margin-bottom: 15px;
+
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
+
+footer {
+    background-color: #fde7f9;
+    background-image: linear-gradient(to bottom, #fde7f9 0%, #aacaef 74%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
